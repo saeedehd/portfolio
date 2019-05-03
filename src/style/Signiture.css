@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'JustKellyJustine';
+    src: url('../source/fonts/JustKellyJustine/JustKellyJustine.eot?#iefix') format('embedded-opentype'),  
+        url('../source/fonts/JustKellyJustine/JustKellyJustine.otf')  format('JustKellyJustine/opentype'),
+        url('../source/fonts/JustKellyJustine/JustKellyJustine.woff') format('woff'), 
+        url('../source/fonts/JustKellyJustine/JustKellyJustine.ttf')  format('truetype'), 
+        url('../source/fonts/JustKellyJustine/JustKellyJustine.svg#JustKellyJustine') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+div.text {
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    animation: type 3s ease-in 2s 1  backwards ;
+    transition: 3s;
+    font-family: 'JustKellyJustine', cursive;
+}
+@keyframes type {
+    from{
+        clip-path: polygon(0 0,0 0,0 100%,0 100%);
+    }
+    to{
+        clip-path: polygon(0 0,100% 0,100% 100%,0 100%);   
+    }
+}
