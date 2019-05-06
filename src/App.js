@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Data from './config/data'
+import Footer from './component/Footer';
+import Signiture from './component/Signiture';
 
-function App() {
-  return (
+class App extends Component {
+  
+  state={
+    data:Data
+  }
+  render() {
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Signiture fullname={this.state.data[0].fullName}/>
+      <Footer info={this.state.data[0]} findMe={this.state.data[2]} skills={this.state.data[1]}/>
     </div>
-  );
+    );
+  }
 }
 
 export default App;

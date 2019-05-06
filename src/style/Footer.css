@@ -1,0 +1,38 @@
+
+    @font-face {
+        font-family: 'iconme';
+        src: url('../source/fonts/iconMe/iconme.eot?33857708');
+        src: url('../source/fonts/iconMe/iconme.eot?33857708#iefix') format('embedded-opentype'),
+                 url('../source/fonts/iconMe/iconme.woff2?33857708') format('woff2'),
+                 url('../source/fonts/iconMe/iconme.woff?33857708') format('woff'),
+                 url('../source/fonts/iconMe/iconme.ttf?33857708') format('truetype'),
+                 url('../source/fonts/iconMe/iconme.svg?33857708#iconme') format('svg');
+        font-weight: normal;
+        font-style: normal;
+          }
+
+.icon-mail-alt:before { content: '\f0e0'; }
+.icon-phone:before { content: '\e801'; }
+.icon-instagram:before { content: '\f16d'; }
+.icon-linkedin-squared:before { content: '\f30c'; }
+.icon-github-circled:before { content: '\f09b'; }
+
+div.contactMe {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+div::before{
+    font-family: iconme;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.floatLeft {
+    float: left;
+}
+.font14 {
+    font-size: 14px;
+}
+.margin10 {
+    margin-top: 10px;
+}
