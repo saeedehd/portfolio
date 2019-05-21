@@ -36,3 +36,10 @@ div::before{
 .margin10 {
     margin-top: 10px;
 }
+footer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
