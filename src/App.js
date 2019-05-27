@@ -15,13 +15,13 @@ class App extends Component {
   render() {
     return (
     <div className="App">
+      <BrowserRouter>
       <Signiture fullname={this.state.data[0].fullName}/>
       <Image/>
       <Footer info={this.state.data[0]} findMe={this.state.data[2]} skills={this.state.data[1]}/>
-      <BrowserRouter>
-        <Nav>
-          <Router/>
-        </Nav>
+      <Nav>
+        <Router/>
+      </Nav>
       </BrowserRouter>
     </div>    
     );

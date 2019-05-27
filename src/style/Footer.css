@@ -38,7 +38,7 @@ div::before{
 }
 footer {
     width: 100%;
-    height: auto;
+    height: 150px;
     position: absolute;
     bottom: 0px;
     left: 0;

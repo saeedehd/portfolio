@@ -1,7 +1,7 @@
 import React from 'react'
 var imgStyle = {
     width: "400px",
-    height: "auto",
+    height: "200px",
     position: "absolute",
     right: "100px",
 
