@@ -1,9 +1,9 @@
 import React from 'react'
 const Mystory = () => {
   return (
-  <div>
-      <h2>Mystory</h2>
-  </div>
+    <div>
+      <h1>Mystory</h1>
+    </div>
   )
 }
 
