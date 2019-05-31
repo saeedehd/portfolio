@@ -6,8 +6,12 @@ body {
   box-sizing: border-box;
   font-family:'Special Elite', cursive;
   color: #353332;
-}
 
+}
+h6 {
+  line-height: 20px;
+  text-align: justify;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

@@ -1,0 +1,111 @@
+
+@keyframes filled {
+    from{
+        clip-path: polygon(0 0,0 0,0 100%,0 100%);
+    }
+    to{
+        clip-path: polygon(0 0,100% 0,100% 100%,0 100%);   
+    }
+}#skill1::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+
+    /* border: 2px solid  rgba(255, 68, 0, 0.714);;
+    border-radius: 25px; */
+}
+#skill2::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+}
+#skill3::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 90%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+}
+#skill4::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 80%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+}
+#skill5::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+}
+#skill6::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 90%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+}
+#skill7::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 75%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+}
+#skill8::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+}
+#skill9::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+}
+#skill10::after {
+    content: " ";
+    display: block;
+    background: rgba(255, 68, 0, 0.714);
+    height: 12px;
+    width: 75%;
+    margin-bottom: 10px;
+    animation: filled 1s ease-in 1s 1  backwards ;
+    transition: 1s;
+}
